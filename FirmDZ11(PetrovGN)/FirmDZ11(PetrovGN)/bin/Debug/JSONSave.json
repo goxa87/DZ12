@@ -1,0 +1,123 @@
+{
+  "DID": 1,
+  "DepName": "Фирма",
+  "DirectorID": 1,
+  "director": {
+    "WorkerID": 1,
+    "FirstName": "Петров",
+    "LastName": "Петров",
+    "Salary": 1300
+  },
+  "workers": [
+    {
+      "WorkerID": "11",
+      "FirstName": "Иван",
+      "LastName": "Иванов",
+      "Salary": 150,
+      "HoursWorked": "10"
+    },
+    {
+      "WorkerID": "4",
+      "FirstName": "сот2",
+      "LastName": "сотр2",
+      "Salary": 150,
+      "HoursWorked": "10"
+    },
+    {
+      "WorkerID": "5",
+      "FirstName": "Петр",
+      "LastName": "Петров",
+      "Salary": 150,
+      "HoursWorked": "10"
+    },
+    {
+      "WorkerID": "6",
+      "FirstName": "интерн",
+      "LastName": "интерн",
+      "Salary": 500,
+      "HoursWorked": "",
+      "Mentor": "4"
+    },
+    {
+      "WorkerID": "7",
+      "FirstName": "интерн2",
+      "LastName": "интерн2",
+      "Salary": 500,
+      "HoursWorked": "",
+      "Mentor": "4"
+    }
+  ],
+  "Departments": [
+    {
+      "DID": 4,
+      "DepName": "1 уровень1",
+      "DirectorID": 2,
+      "director": {
+        "WorkerID": 2,
+        "FirstName": "иванов ",
+        "LastName": "Иван",
+        "Salary": 1300
+      },
+      "workers": [
+        {
+          "WorkerID": "8",
+          "FirstName": "сотр2 ур",
+          "LastName": "сотр2 ур",
+          "Salary": 150,
+          "HoursWorked": "10"
+        },
+        {
+          "WorkerID": "9",
+          "FirstName": "Сотр2 ур2",
+          "LastName": "Сотр2 ур2",
+          "Salary": 150,
+          "HoursWorked": "10"
+        },
+        {
+          "WorkerID": "10",
+          "FirstName": "Сотр2 ур 3",
+          "LastName": "Сотр2 ур 3",
+          "Salary": 500,
+          "HoursWorked": "",
+          "Mentor": "1"
+        }
+      ],
+      "Departments": [
+        {
+          "DID": 3,
+          "DepName": "Вложенный деп2 ур",
+          "DirectorID": 8,
+          "director": {
+            "WorkerID": 8,
+            "FirstName": "дир",
+            "LastName": "дир",
+            "Salary": 1300
+          },
+          "workers": [
+            {
+              "WorkerID": "8",
+              "FirstName": "стор",
+              "LastName": "итр",
+              "Salary": 150,
+              "HoursWorked": "10"
+            }
+          ],
+          "Departments": []
+        }
+      ]
+    },
+    {
+      "DID": 2,
+      "DepName": "1 уровень 2",
+      "DirectorID": 3,
+      "director": {
+        "WorkerID": 3,
+        "FirstName": "петр",
+        "LastName": "петров ",
+        "Salary": 1300
+      },
+      "workers": [],
+      "Departments": []
+    }
+  ]
+}

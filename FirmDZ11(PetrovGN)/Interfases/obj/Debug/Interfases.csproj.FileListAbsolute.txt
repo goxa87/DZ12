@@ -1,0 +1,7 @@
+C:\Users\Georgiy\source\repos\FirmDZ11(PetrovGN)\Interfases\bin\Debug\Interfases.exe.config
+C:\Users\Georgiy\source\repos\FirmDZ11(PetrovGN)\Interfases\bin\Debug\Interfases.exe
+C:\Users\Georgiy\source\repos\FirmDZ11(PetrovGN)\Interfases\bin\Debug\Interfases.pdb
+C:\Users\Georgiy\source\repos\FirmDZ11(PetrovGN)\Interfases\obj\Debug\Interfases.csprojAssemblyReference.cache
+C:\Users\Georgiy\source\repos\FirmDZ11(PetrovGN)\Interfases\obj\Debug\Interfases.csproj.CoreCompileInputs.cache
+C:\Users\Georgiy\source\repos\FirmDZ11(PetrovGN)\Interfases\obj\Debug\Interfases.exe
+C:\Users\Georgiy\source\repos\FirmDZ11(PetrovGN)\Interfases\obj\Debug\Interfases.pdb

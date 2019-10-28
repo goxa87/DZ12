@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirmDZ11(PetrovGN)", "FirmDZ11(PetrovGN)\FirmDZ11(PetrovGN).csproj", "{2FB66C33-895A-4DFE-8F1A-77E71F43B4D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfases", "Interfases\Interfases.csproj", "{8D42F916-EF32-48F9-A27C-81361B783C9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FB66C33-895A-4DFE-8F1A-77E71F43B4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB66C33-895A-4DFE-8F1A-77E71F43B4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB66C33-895A-4DFE-8F1A-77E71F43B4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB66C33-895A-4DFE-8F1A-77E71F43B4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D42F916-EF32-48F9-A27C-81361B783C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D42F916-EF32-48F9-A27C-81361B783C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D42F916-EF32-48F9-A27C-81361B783C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D42F916-EF32-48F9-A27C-81361B783C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {038A2563-9F5E-4FD5-8581-723F4E24DCF0}
+	EndGlobalSection
+EndGlobal
