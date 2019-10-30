@@ -82,32 +82,35 @@ namespace FirmDZ11_PetrovGN_
         private void MainTree_Expanded(object sender, RoutedEventArgs e)
         {
             TreeViewItem item = (TreeViewItem)e.OriginalSource;
-            Department dep = item.Tag as Department;
-
-            item.Items.Clear();
-            
-            txtDir.Text = dep.GetDirector();    
-            foreach (var i in dep.Departments)  // Строки для департамента
+            if (item.Tag is Department)
             {
-                TreeViewItem newItem = new TreeViewItem();
-                newItem.Tag = i;
-                newItem.Header = i.DepInfo();
-                newItem.Items.Add("*");
-                item.Items.Add(newItem);
-            }
+                Department dep = item.Tag as Department;
 
-            // отображение руководителя в списке
-            TreeViewItem newHeader = new TreeViewItem();
-            newHeader.Tag = dep.director;
-            newHeader.Header = "Руководитель: " + dep.director.FirstName + " " + dep.director.LastName;
-            item.Items.Add(newHeader);
+                item.Items.Clear();
 
-            foreach (var i in dep.workers)  // Строки для сотрудника
-            {
-                TreeViewItem newItem = new TreeViewItem();
-                newItem.Header = i.FirstName + " " + i.LastName;
-                newItem.Tag = i;
-                item.Items.Add(newItem);
+                txtDir.Text = dep.GetDirector();
+                foreach (var i in dep.Departments)  // Строки для департамента
+                {
+                    TreeViewItem newItem = new TreeViewItem();
+                    newItem.Tag = i;
+                    newItem.Header = i.DepInfo();
+                    newItem.Items.Add("*");
+                    item.Items.Add(newItem);
+                }
+
+                // отображение руководителя в списке
+                TreeViewItem newHeader = new TreeViewItem();
+                newHeader.Tag = dep.director;
+                newHeader.Header = "Руководитель: " + dep.director.FirstName + " " + dep.director.LastName;
+                item.Items.Add(newHeader);
+
+                foreach (var i in dep.workers)  // Строки для сотрудника
+                {
+                    TreeViewItem newItem = new TreeViewItem();
+                    newItem.Header = i.FirstName + " " + i.LastName;
+                    newItem.Tag = i;
+                    item.Items.Add(newItem);
+                }
             }
         }
 
